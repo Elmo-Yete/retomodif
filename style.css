@@ -1,0 +1,45 @@
+html,
+body {
+    background:#d5e1ef;
+    box-sizing:border-box;
+    height: 100%;
+    margin: 10px;
+    padding:50px;
+    text-align: center;
+    max-width:min-content;
+}
+
+.card-container {             /*esto es el recipiente blanco*/
+    background: white;
+    box-shadow:0px 6px 20px black;
+    border-radius:20px;
+    display:inline-block;
+    padding:20px;
+    overflow:hidden;
+    max-width:100%;
+}
+
+.card-container .qr-container {             /*  este es el contenedor azul*/
+    background: #2f7dfa;
+    max-width:500px;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+    
+}
+
+.card-container .qr-container img{
+    max-width:300px;
+}
+
+.card-container h1{    /*esto modifica el texto nadamas*/
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-container p {    /*esto tambien mueve el texto de abajo*/
+    font-size: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+ }
